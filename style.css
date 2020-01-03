@@ -10,15 +10,12 @@ body {
   background-color: #cccccc;
 }
 
-#hour9AM {
-
-}
-
-#todo9AM {
-    
-}
-#save9AM {
-    
+input {
+  background-color:#cccccc;
+  border: 1px solid rgb(9, 71, 241);
+  border: 1px solid rgba(9, 71, 241, 0.5);
+  width:100%;
+  overflow:scroll; 
 }
 .sticky {
   position: fixed;
