@@ -19,20 +19,56 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+
     <title>Work Day Scheduler</title>
   </head>
 
   <body>
+    <header class="sticky">
+      <table class="table header-table">
+        <thead>
+          <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th id="9AM">Current Time</th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th id="moment"></th>
+          </tr>
+        </thead>
+      </table>
+    </header>
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
+      <hr>
+      <hr>
     </header>
+
+    
     <div class="container">
       <!-- Timeblocks go here -->
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Hour</th>
+            <th scope="col">To Do's</th>
+            <th scope="col">Save</th>
+          </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+      </table>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="script.js"></script>
+    <script src="moment.js"></script>
   </body>
 </html>

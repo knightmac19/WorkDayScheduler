@@ -1,11 +1,34 @@
 html {
   height:100%;
+  background-color: #cccccc;
 }
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1;
   height:100%;
+  background-color: #cccccc;
+}
+
+#hour9AM {
+
+}
+
+#todo9AM {
+    
+}
+#save9AM {
+    
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.header-table {
+  background-color:rgb(71, 68, 68);
+  color:white;
 }
 
 textarea{
@@ -23,6 +46,7 @@ textarea{
   color: black;
   border-radius: 0;
   border-bottom: 10px solid black;
+  
 }
 
 .description{
