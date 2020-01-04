@@ -10,9 +10,11 @@ This application provides users with that functionality. A sticky header display
 
 
 ## Screenshots
+![alt_text](https://github.com/knightmac19/WorkDayScheduler/blob/master/WorkDayScheduler1.png)
 
+![alt_text](https://github.com/knightmac19/WorkDayScheduler/blob/master/WorkDayScheduler2.png)
 
-
+![alt_text](https://github.com/knightmac19/WorkDayScheduler/blob/master/WorkDayScheduler3.png)
 
 ## Credits
 
