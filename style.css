@@ -94,3 +94,17 @@ textarea{
   font-size: 20px;
   transition: all .3s ease-in-out;
 }
+
+#thead-labels{
+  background-color:rgb(104, 101, 101);
+  color:white;
+  font-weight:bold;
+}
+input {
+  color:white;
+  font-weight:bold;
+}
+
+.btn-cmd {
+  width:11.5%;
+}
